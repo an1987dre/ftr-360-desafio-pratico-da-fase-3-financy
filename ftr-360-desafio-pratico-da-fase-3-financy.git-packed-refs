@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+70d84c9616b558d521ed44c3e774ff80a342c99c refs/heads/chore/gitignore
+ca38cd3603bd0fce081abde474b1c36153142dc6 refs/heads/chore/gitignore-env
+c394ae48668645578c34cb815fdc8406a95d7c33 refs/heads/feature/avatar-upload
+34cce0973be5e1a22a9d5915348d918bb1601755 refs/heads/feature/backend-features
+bfb4ffa29c021609e73c26ac040a22afb1327659 refs/heads/feature/backend-setup
+4b5dfcb86d4935b28319d08a675dd64f9c404438 refs/heads/feature/design-tokens
+5e4e519ea16e07146d4865c338b1ed85493f9fa5 refs/heads/feature/docker-compose
+1ab5f4a23332ffe24f35e5d985f7290fcfb72bc4 refs/heads/feature/docs
+8cec499cb325e30e1d95305ed000aa7c28664b3c refs/heads/feature/figma-screens
+d8abf1b66d2fa44c389e7845c4dcf957eafa69f3 refs/heads/feature/frontend-pages
+d0cd22728545ece65895377d4d5309336a3b3d4b refs/heads/feature/frontend-setup
+00a6c588d3e1c54235b29547167f472684d7c26c refs/heads/feature/release
+c2edcb02e6e372f3c0c3bfd0d5968710298f9bac refs/heads/main
