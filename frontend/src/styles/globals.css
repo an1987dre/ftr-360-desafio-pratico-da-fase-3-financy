@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens do Financy, extraídos do Style Guide do Figma:
+ * https://www.figma.com/design/iWfw0Mlm3ejpDxpiYsKJ9S/Financy--Community-?node-id=3101-371
+ *
+ * A paleta padrão do Tailwind é zerada: só existem as cores do design system.
+ */
+@theme {
+  --color-*: initial;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Neutral */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Grayscale */
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #111827;
+
+  /* Brand */
+  --color-brand-base: #1f6f43;
+  --color-brand-dark: #124b2b;
+
+  /* Feedback */
+  --color-danger: #ef4444;
+  --color-success: #19ad70;
+
+  /* Colors (categorias): dark = texto de tag, base = ícone/destaque, light = fundo */
+  --color-blue-dark: #1d4ed8;
+  --color-blue-base: #2563eb;
+  --color-blue-light: #dbeafe;
+  --color-purple-dark: #7e22ce;
+  --color-purple-base: #9333ea;
+  --color-purple-light: #f3e8ff;
+  --color-pink-dark: #be185d;
+  --color-pink-base: #db2777;
+  --color-pink-light: #fce7f3;
+  --color-red-dark: #b91c1c;
+  --color-red-base: #dc2626;
+  --color-red-light: #fee2e2;
+  --color-orange-dark: #c2410c;
+  --color-orange-base: #ea580c;
+  --color-orange-light: #ffedd5;
+  --color-yellow-dark: #a16207;
+  --color-yellow-base: #ca8a04;
+  --color-yellow-light: #f7f3ca;
+  --color-green-dark: #15803d;
+  --color-green-base: #16a34a;
+  --color-green-light: #e0fae9;
+
+  /* Raios e sombras */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-dialog: 0 20px 48px -12px rgb(17 24 39 / 0.25);
+  --shadow-menu: 0 8px 24px -6px rgb(17 24 39 / 0.16);
+
+  /* Layout */
+  --container-app: 1184px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-gray-100 font-sans text-gray-800;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
